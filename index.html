@@ -11,8 +11,8 @@
 <body>
     <header>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Sobre Mim</a>
+            <a href="#first_section">Home</a>
+            <a href="#second_section">Sobre Mim</a>
             <a href="#">Portfólio</a>
             <a href="#">Contacto</a>
         </nav>
@@ -20,17 +20,29 @@
 
     <main>
         <section id="first_section">
-            <article>
-                <h1>Eu sou o Nsuka Domingos</h1>
-                <h1>Seja Bem Vindo(a) ao meu Portfólio.</h1>
+            <article id="first_article">
+                <h1>Eu sou o <span id="name_span">Nsuka</span></h1>
+                <h1>Bem Vindo(a) ao meu Portfólio.</h1>
                 <p class="p_maior">Programador Web - Front end</p>
+                <a href="https://Wa.me/+351937676242" class="hire_button" target="_blank">
+                    <button class="hire_button">
+                        Fale Comigo
+                    </button>
+                </a>
+                <a href="index.html" class="button_link">
+                    <button class="button_link">
+                        <img src="images/insta_icon.png" alt="" style="width: 32px; height: 32px;">
+                    </button>
+                </a>
+            </article>
+            <article>
             </article>
         </section>
 
         <section id="second_section">
             <h2>Sobre Mim</h2>
             <h3>Minhas Habilidades</h3>
-            <p>Abaixo estão algumas das principais ferramentas que domino no desenvolvimento Web, essenciais para criar sites modernos e funcionais</p>
+            <p class="p_menor">Abaixo estão algumas das principais ferramentas que domino no desenvolvimento Web, essenciais para criar sites modernos e funcionais</p>
             <div class="container">
                 <div class="languages_div">
                     <img src="images/html_icon.png" alt="HTML Icon">
@@ -38,6 +50,15 @@
                         HTML
                     </h4>
                     <p>Experiência na estruturação de páginas web com uso semântico de tags</p>
+                    <br>
+                    <h4>
+                        90%
+                    </h4>
+                    <div style="width: 220px; height: 11px; background-color: #dee2fa; border-radius: 50px;">
+                        <div style="background-color: #5777ff; width: 192px; height: 11px; border-radius: 51px;">
+
+                        </div>
+                    </div>
                 </div>
                 <div class="languages_div">
                     <img src="images/css_icon.png" alt="CSS Icon">
@@ -45,6 +66,16 @@
                         CSS
                     </h4>
                     <p>Capaz de estilizar interfaces responsivas com técnicas modernas</p>
+
+                    <br>
+                    <h4>
+                        86%
+                    </h4>
+                    <div style="width: 220px; height: 11px; background-color: #dee2fa; border-radius: 50px;">
+                        <div style="background-color: #5777ff; width: 177px; height: 11px; border-radius: 51px;">
+
+                        </div>
+                    </div>
                 </div>
                 <div class="languages_div">
                     <img src="images/github_blue_leve.png" alt="GitHub Icon">
@@ -52,6 +83,16 @@
                         GitHub
                     </h4>
                     <p>Domínio no uso de versionamento de código e colaboração em projetos</p>
+
+                    <br>
+                    <h4>
+                        98%
+                    </h4>
+                    <div style="width: 220px; height: 11px; background-color: #dee2fa; border-radius: 50px;">
+                        <div style="background-color: #5777ff; width: 208px; height: 11px; border-radius: 51px;">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

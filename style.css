@@ -9,10 +9,50 @@
     src: url(fonts/urbanist/Urbanist-VariableFont_wght.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+a .hire_button{
+    border: none;
+    border-radius: 60px;
+    font-family: Urbanist;
+    color: white;
+    width: 90px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #5777ff;
+}
+
+button .hire_button {
+    width: 93px;
+    cursor: pointer;
+    background-color: #5777ff;
+}
+
+.hire_button:hover {
+    border-radius: 60px;
+    background-color: #8198ff;
+}
+
+
+.button_link {
+    width: 30px;
+    opacity: 65%;
+    border: none; cursor: pointer; width: 30px; height: 30px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.button_link:hover {
+    background-color: none;
 }
 
 section {
@@ -38,7 +78,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(45px);
     margin-top: 10px;
     text-align: center;
     margin: auto;
@@ -46,7 +85,18 @@ nav {
     background-color: #f9faff;
 }
 
-a {
+#name_span {
+    border-radius: 50px;
+    font-size: 0.850em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    background-color: #5574fd;
+}
+
+nav a {
     text-decoration: none;
     display: flex;
     padding: 10px;
@@ -55,14 +105,21 @@ a {
     font-family: Urbanist;
 }
 
-a:hover {
-    text-decoration: underline;
+nav a:hover {
+    background-color: #8198ff;
+    color: white;
+    border-radius: 60px;
 }
 
 #first_section {
-    margin-top: 10px;
-    padding-top: 30px;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 200px;
     background-color: #f9faff;
+}
+
+#first_article {
+    margin-top: 40px;
 }
 
 h1 {
@@ -78,8 +135,8 @@ h1 {
 }
 
 #second_section {
-    background-color: #f9faff;
-    padding-top: 10px;
+    background-color: #f2f4ff;
+    padding-top: 50px;
     padding-bottom: 10px;
 }
 
@@ -131,7 +188,7 @@ h3 {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 2.5em;
     }
 
     a {
@@ -146,7 +203,7 @@ h3 {
 
 @media  (max-width: 359px) {
     h1 {
-        font-size: 2.2em;
+        font-size: 2.5em;
     }
 
     h3 {
