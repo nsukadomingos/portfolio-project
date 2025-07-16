@@ -1,0 +1,172 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Urbanist;
+    src: url(fonts/urbanist/Urbanist-VariableFont_wght.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+p {
+    color: #757575;
+    text-align: justify;
+    line-height: 1.5em;
+    font-family: Urbanist;
+    font-size: 16px;
+}
+
+header {
+    background-color: #ecefff;
+    position: fixed;
+    width: 100%;
+}
+nav {
+    position: sticky; top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(45px);
+    margin-top: 10px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    background-color: #f9faff;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    color: #000;
+    font-size: 18px;
+    font-family: Urbanist;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#first_section {
+    margin-top: 10px;
+    padding-top: 30px;
+    background-color: #f9faff;
+}
+
+h1 {
+    font-family: Urbanist;
+    font-size: 50px;
+    color: black;
+}
+
+.p_maior {
+    font-size: 20px;
+    font-family: Urbanist;
+    color: #757575;
+}
+
+#second_section {
+    background-color: #f9faff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #5777ff;
+    font-family: Urbanist;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Urbanist;
+}
+
+.p_menor {
+    font-size: 1em;
+    font-family: Urbanist;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+.languages_div {
+    border: 2px;
+    width: 220px;
+    height: 100%;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    font-family: Urbanist;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 0px black;
+    background-color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+@media (max-width: 420px){
+
+    section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    a {
+        padding: 5px;
+    }
+
+    .p_maior {
+        font-size: 1.3em;
+    }
+
+}
+
+@media  (max-width: 359px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    .p_maior {
+        font-size: 1em;
+    }
+
+    .p_menor {
+        font-size: 0.8em;
+    }
+
+    a {
+        font-size: 1em;
+    }
+
+    #second_section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
