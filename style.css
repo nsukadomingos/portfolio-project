@@ -134,6 +134,7 @@ nav a:hover {
 }
 
 #first_section {
+    padding-top: 100px;
     margin-top: 20px;
     padding-top: 50px;
     padding-bottom: 300px;
@@ -155,6 +156,7 @@ h1 {
     font-size: 20px;
     font-family: Urbanist;
     color: #474747;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
