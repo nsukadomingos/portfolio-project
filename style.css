@@ -134,7 +134,6 @@ nav a:hover {
 }
 
 #first_section {
-    padding-top: 150px;
     margin-top: 20px;
     padding-top: 50px;
     padding-bottom: 300px;
@@ -142,7 +141,7 @@ nav a:hover {
 }
 
 #first_article {
-    margin-top: 40px;
+    padding-top: 190px;
 }
 
 h1 {
