@@ -16,6 +16,7 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
@@ -60,6 +61,10 @@ button .hire_button {
     background-color: none;
 }
 
+main {
+   height: 100%;
+}
+
 section {
     padding-left: 80px;
     padding-right: 80px;
@@ -74,7 +79,7 @@ p {
 }
 
 header {
-    background-color: #d2d6eb;
+    background-color: #e9eaf3;
     position: fixed;
     width: 100%;
 }
@@ -87,7 +92,7 @@ nav {
     text-align: center;
     margin: auto;
     padding: 5px;
-    background-color: #ced1e5;
+    background-color: #e9eaf3;
 }
 
 #name_span {
@@ -121,7 +126,7 @@ nav a:hover {
     margin-top: 20px;
     padding-top: 50px;
     padding-bottom: 300px;
-    background-color:#ced1e5;
+    background-color:#e9eaf3;
 }
 
 #first_article {
@@ -142,9 +147,20 @@ h1 {
 }
 
 #second_section {
+    height: 100%;
+    padding: 0px;
     background-color: #e2e3e9;
-    padding-top: 60px;
-    padding-bottom: 47px;
+    background-image: url(images/code_imgae.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 0px 14px 12px #000000c2;
+}
+
+#second_article {
+    padding: 60px;
+    background-color: #000000ad;
 }
 
 h2 {
@@ -170,7 +186,8 @@ h3 {
     font-size: 1em;
     font-family: Urbanist;
     text-align: center;
-    color: #757575;
+    color: #d3d3d3;
+    text-shadow: 1px 1px black;
     margin-bottom: 15px;
 }
 
@@ -186,7 +203,7 @@ h3 {
     text-align: left;
     border-radius: 10px;
     box-shadow: 0px 1px 4px 0px black;
-    background-color: white;
+    background-color: #ffffffe0;
 }
 
 .container {
@@ -194,10 +211,15 @@ h3 {
 }
 
 #third_section {
-    background-color: #ced1e5;
+    background-color: #dcdee9;
     padding-bottom: 20px;
     padding-top: 60px;
     padding-bottom: 47px;
+}
+
+#p_third_section {
+    text-shadow: none;
+    color: #7b7474;
 }
 
 #div_android {
@@ -226,7 +248,7 @@ h3 {
 }
 
 #four_section {
-    background-color: #e2e3e9;
+    background-color: #e9eaf3;
     padding-top: 40px;
     padding-bottom: 60px;
 }
@@ -247,7 +269,7 @@ h4.text_h {
 }
 
 footer {
-    background-color: #adb1cc;
+    background-color: #bec0cf;
     padding: 8px;
 }
 
