@@ -4,6 +4,8 @@
     padding: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
     font-family: Urbanist;
     src: url(fonts/urbanist/Urbanist-VariableFont_wght.ttf);
@@ -12,6 +14,12 @@
 @font-face {
     font-family: press_start;
     src: url(fonts/press_start/PressStart2P-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: Designer;
+    src: url(fonts/designer/Designer.otf);
 }
 
 html {
@@ -30,6 +38,7 @@ body {
     width: 37px;
     height: 35px;
 }
+
 
 #img_home:hover {
     border: none;
@@ -73,7 +82,7 @@ button .hire_button {
 }
 
 main {
-   height: 100%;
+    height: 100%;
 }
 
 section {
@@ -108,13 +117,13 @@ nav {
 
 #name_span {
     border-radius: 50px;
-    font-size: 40px;
+    font-size: 2.3rem;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 4px;
     padding-right: 4px;
     color: white;
-    background-color: #5574fd;
+    background-color: #6379d7;
     font-family: Urbanist;
 }
 
@@ -149,7 +158,18 @@ h1 {
     font-family: Urbanist, sans-serif, Arial;
     font-size: 50px;
     color: black;
-    max-width: 320px;
+    max-width: 500px;
+}
+
+h1#myname {
+    max-width: 600px;
+}
+
+span#myname {
+    color:#738bf3; 
+    font-weight: 700; 
+    font-family: Designer, sans-serif;
+    font-variant: small-caps;
 }
 
 .p_maior {
