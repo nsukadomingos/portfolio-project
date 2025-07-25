@@ -197,6 +197,11 @@ span#myname {
     padding-top: 105px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 10px;
+    background-color: #000000ad;
+}
+
+#second_article_1 {
     padding-bottom: 60px;
     background-color: #000000ad;
 }
@@ -234,8 +239,6 @@ h3 {
     width: 220px;
     height: 100%;
     padding: 15px;
-    margin: 10px;
-    display: inline-block;
     font-family: Urbanist;
     font-size: 20px;
     text-align: left;
@@ -244,8 +247,30 @@ h3 {
     background-color: #ffffffe0;
 }
 
+.container-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
 .container {
+    display:flex;
+    align-items: center;
+    width: fit-content;
+    gap: 20px;
+    animation: 30s infinite slide linear;
     text-align: center;
+    padding: 20px 0px;
+}
+
+.container:hover {
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
 }
 
 #third_section {
