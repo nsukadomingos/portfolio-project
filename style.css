@@ -114,6 +114,7 @@ nav {
     margin-top: 10px;
     text-align: center;
     padding: 5px;
+    z-index: 1000;
     background-color: rgba(233, 234, 243, 0.3);
 
 }
@@ -251,6 +252,7 @@ h3 {
     position: relative;
     width: 100%;
     overflow: hidden;
+    z-index: 1;
 }
 
 
