@@ -332,8 +332,8 @@ div.iframe-container {
     justify-content: center;
     align-items: center;
     padding: 8px;
-    width: 277px;
-    height: 352px;
+    width: 290px;
+    height: 380px;
     border: none;
     overflow: hidden; /* Remove scrollbar */
     scrollbar-width: none; /* Firefox */
