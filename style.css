@@ -105,13 +105,14 @@ header {
     background-color: #e9eaf3;
     position: fixed;
     width: 100%;
+    z-index: 1000;
 }
 nav {
-    position: sticky; top:0;
+    position: sticky; top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    padding-top: 10px;
     text-align: center;
     padding: 5px;
     background-color: rgba(233, 234, 243, 0.3);
@@ -251,6 +252,7 @@ h3 {
     position: relative;
     width: 100%;
     overflow: hidden;
+    z-index: 1;
 }
 
 
@@ -259,7 +261,7 @@ h3 {
     align-items: center;
     width: fit-content;
     gap: 20px;
-    animation: 30s infinite slide linear;
+    animation: 55s infinite slide linear;
     text-align: center;
     padding: 20px 0px;
 }
@@ -330,8 +332,8 @@ div.iframe-container {
     justify-content: center;
     align-items: center;
     padding: 8px;
-    width: 277px;
-    height: 352px;
+    width: 290px;
+    height: 380px;
     border: none;
     overflow: hidden; /* Remove scrollbar */
     scrollbar-width: none; /* Firefox */
