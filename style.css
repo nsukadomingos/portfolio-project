@@ -88,10 +88,6 @@ main {
     height: 100%;
 }
 
-section {
-    padding-left: 80px;
-    padding-right: 80px;
-}
 
 p {
     color: #4f4d4d;
@@ -144,6 +140,11 @@ nav a:hover {
     background-color: #8198ff;
     color: white;
     border-radius: 60px;
+}
+
+section {
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 #first_section {
@@ -214,11 +215,11 @@ h2 {
     text-align: center;
     color: #5777ff;
     font-family: Urbanist;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 2.4rem;
     text-align: center;
     font-family: Urbanist;
 }
@@ -235,6 +236,8 @@ h3 {
     text-align: center;
     color: #d3d3d3;
     text-shadow: 1px 1px black;
+    padding: 8px;
+    max-width: 320px;
     margin-bottom: 15px;
 }
 
@@ -279,14 +282,23 @@ h3 {
 }
 
 #third_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #dcdee9;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
+.projects-texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #p_third_section {
+    max-width: 600px;
     text-shadow: none;
     color: #7b7474;
 }
@@ -299,24 +311,12 @@ iframe {
     border-radius: 6px;
 }
 
-#div_android {
-    width: 50%;
-    height: 35%;
-    margin: auto;
-}
-
-.android_image {
-    width: 100%;
-    height: 60%;
-    display: block;
-    margin: 0 auto;
-}
-
 div.projects {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 div.project_button {
@@ -400,8 +400,12 @@ footer {
 @media (max-width: 420px){
 
     section {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    section#first_section {
+        margin-top: 0px;
     }
 
     h1 {
@@ -452,11 +456,8 @@ footer {
         padding-right: 0px;
     }
 
-    #second_article  {
-        padding-top: 94px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 15px;
+    #second_article p  {
+        max-width: 300px;
     }
 
     iframe::-webkit-scrollbar {
