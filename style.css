@@ -149,7 +149,7 @@ section {
 
 #first_section {
     margin-top: 20px;
-    padding-top: 50px;
+    padding-top: 90px;
     padding-bottom: 130px;
     height: 100dvh;
     background-color:#e9eaf3;
@@ -185,7 +185,7 @@ span#myname {
 }
 
 #second_section {
-    height: 90vh;
+    height: 613px;
     padding: 0px 0px 90px 0px;
     background-color: #e2e3e9;
     background-image: url(images/code_imgae.jpg);
@@ -200,8 +200,8 @@ span#myname {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
-    padding-top: 90px;
+    height: 620px;
+    padding-top: 73px;
     padding-bottom: 10px;
     background-color: #000000ad;
 }
@@ -329,7 +329,7 @@ div.iframe-container {
     align-items: center;
     padding: 8px;
     width: 290px;
-    height: 328px;
+    height: 323px;
     border: none;
     overflow: hidden; /* Remove scrollbar */
     scrollbar-width: none; /* Firefox */
