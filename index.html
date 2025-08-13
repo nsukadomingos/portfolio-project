@@ -25,9 +25,9 @@
         </div>
         <menu id="itens">
             <ul id="hamburger">
-                <li><a href="#second_section">Minhas Habilidades</a></li>
-                <li><a href="#third_section">Meus Projectos</a></li>
-                <li><a href="#four_section">Contacto</a></li>
+                <a href="#second_section" onclick="ocultar()"><li>Minhas Habilidades</li></a>
+                <a href="#third_section"><li>Meus Projectos</li></a>
+                <a href="#four_section"><li>Contacto</li></a>
             </ul>
         </menu>
     </header>
@@ -421,6 +421,10 @@
             } else {
                 itens.style.display = 'block'
             }
+        }
+
+        function ocultar() {
+            itens.style.display = 'none'
         }
     </script>
 </body>
