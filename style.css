@@ -115,7 +115,7 @@ ul#hamburger {
     box-shadow: 1px 1px 10px #0000006b;
 }
 
-menu > ul#hamburger > li {
+menu > ul#hamburger > a > li {
     animation: aparecer 0.5s ease-in-out;
     text-align: center;
     padding: 10px;
@@ -123,11 +123,11 @@ menu > ul#hamburger > li {
     background-color: #d8d8e7;
 }
 
-menu > ul#hamburger > li:hover{
+menu > ul#hamburger > a > li:hover{
     background-color: rgb(217, 221, 240);
 }
 
-menu > ul#hamburger > li > a{
+menu > ul#hamburger > a{
     list-style-type: none;
     color: #7e7e80;
     cursor: pointer;
