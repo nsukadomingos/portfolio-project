@@ -1,35 +1,24 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); /*Roboto font download*/
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 @font-face {
     font-family: Urbanist;
     src: url(fonts/urbanist/Urbanist-VariableFont_wght.ttf); /*Urbanist font*/
 }
 
-@font-face {
-    font-family: press_start;
-    src: url(fonts/press_start/PressStart2P-Regular.ttf);
-
-}
-
-@font-face {
-    font-family: Designer;
-    src: url(fonts/designer/Designer.otf);
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Urbanist, Arial, sans-serif;
 }
 
 html {
     scroll-behavior: smooth; /* Smooth scrolling - Adds a smoother scrolling between tabs*/
-    height: 100%;
+    height: 100vw;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -37,12 +26,6 @@ body {
 #img_home {
     width: 37px;
     height: 35px;
-}
-
-
-#img_home:hover {
-    border: none;
-    background-color: transparent;
 }
 
 a .hire_button{
@@ -99,47 +82,60 @@ p {
 
 header {
     background-color: #e9eaf3;
-    position: fixed;
     width: 100%;
-    z-index: 1000;
 }
-nav {
-    position: sticky; top: 0;
+
+div#clicable {
+    padding: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: right;
+    justify-content: right;
+}
+
+span#burguer-icon {
+    cursor: pointer;
+    padding: 5px;
+}
+
+menu {
+    display: none;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ul#hamburger {
+    width: 100%;
     padding-top: 10px;
     text-align: center;
     padding: 5px;
-    background-color: rgba(233, 234, 243, 0.3);
-
+    background-color: #d8d8e7;
+    list-style-type: none;
+    box-shadow: 1px 1px 10px #0000006b;
 }
 
-#name_span {
-    border-radius: 50px;
-    font-size: 2.3rem;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 4px;
-    padding-right: 4px;
-    color: white;
-    background-color: #6379d7;
-    font-family: Urbanist;
-}
-
-nav a {
-    text-decoration: none;
-    display: flex;
+menu > ul#hamburger > li {
+    animation: aparecer 0.5s ease-in-out;
+    text-align: center;
     padding: 10px;
-    color: #000;
-    font-size: 18px;
-    font-family: Urbanist;
+    border-bottom: 1px solid #a7a7b1;
+    background-color: #d8d8e7;
 }
 
-nav a:hover {
-    background-color: #8198ff;
-    color: white;
-    border-radius: 60px;
+menu > ul#hamburger > li:hover{
+    background-color: rgb(217, 221, 240);
+}
+
+menu > ul#hamburger > li > a{
+    list-style-type: none;
+    color: #7e7e80;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+menu > ul#hamburger > li > a:hover{
+    color: rgb(77, 77, 77);
 }
 
 section {
@@ -148,32 +144,28 @@ section {
 }
 
 #first_section {
-    margin-top: 20px;
-    padding-top: 90px;
+    padding-top: 30px;
     padding-bottom: 130px;
     height: 90dvh;
     background-color:#e9eaf3;
 }
 
 #first_article {
-    padding-top: 50px;
+    margin-top: 10px;
     padding-bottom: 60px;
 }
 
 h1 {
+    animation: aparecer 2s linear;
     font-family: Urbanist, sans-serif, Arial;
     font-size: 50px;
     color: black;
     max-width: 500px;
 }
 
-h1#myname {
-    max-width: 600px;
-}
 
-span#myname {
-    color:#738bf3;
-    font-family: Urbanist, sans-serif, Arial;
+span {
+    animation: aparecer 1 linear;
 }
 
 .p_maior {
@@ -186,7 +178,7 @@ span#myname {
 
 #second_section {
     height: 613px;
-    padding: 0px 0px 90px 0px;
+    padding: 0px;
     background-color: #e2e3e9;
     background-image: url(images/code_imgae.jpg);
     background-position: left top;
@@ -197,11 +189,12 @@ span#myname {
 }
 
 #second_article {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 620px;
-    padding-top: 73px;
+    height: 100%;
+    padding-top: 50px;
     padding-bottom: 10px;
     background-color: #000000ad;
 }
@@ -280,7 +273,7 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: #dcdee9;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 

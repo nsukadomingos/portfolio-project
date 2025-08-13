@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0%;
+
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+}
+
+@keyframes aparecer-second {
+    0% {
+        opacity: 0%;
+
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+}
+
+div.first_content {
+    animation: aparecer-second 2.3s linear;
+}
