@@ -108,32 +108,33 @@ ul#hamburger {
     width: 100%;
     padding-top: 10px;
     text-align: center;
+    border-radius: 10px;
     padding: 5px;
     background-color: #d8d8e7;
     list-style-type: none;
     box-shadow: 1px 1px 10px #0000006b;
 }
 
-menu > ul#hamburger li {
+menu > ul#hamburger > a {
     animation: aparecer 0.5s ease-in-out;
     text-align: center;
-    padding: 10px;
-    border-bottom: 1px solid #a7a7b1;
     background-color: #d8d8e7;
 }
 
-menu > ul#hamburger li:hover{
+menu > ul#hamburger a> li:hover{
     background-color: rgb(217, 221, 240);
 }
 
-menu > ul#hamburger > a{
+menu > ul#hamburger > a > li{
     list-style-type: none;
+    border-bottom: 1px solid #a7a7b1;
     color: #7e7e80;
+    padding: 10px;
     cursor: pointer;
     text-decoration: none;
 }
 
-menu > ul#hamburger > a:hover{
+menu > ul#hamburger > a> li:hover{
     color: rgb(77, 77, 77);
 }
 
