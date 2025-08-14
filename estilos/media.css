@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*Configuração das telas*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    menu {
+        width: 50%;
+        margin: 0;
+        margin-left: auto;
+        border-radius: 0px;
+    }
+
+    ul#hamburguer {
+        border-radius: 0px;
+    }
+
+    section#first_section h1 {
+        font-size: xx-large;
+    }
+
+    section#first_section > article > div > p {
+        font-size: large;
+        max-width: 500px;
+    }
+
+    section#first_section > article > div > .p_maior {
+        font-size: larger;
+    }
+
+    .img_link {
+        width: 45px;
+        margin-right: 30px;
+    }
+
+}
