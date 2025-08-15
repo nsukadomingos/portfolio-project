@@ -22,7 +22,7 @@
                 <h1><a href="#first_section">Portfolio</a><span style="color: blue;">.</span></h1>
             </div>
             <div>
-                <span id="burguer-icon" class="material-symbols-outlined" onclick="clickMenu()">
+                <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
                     menu
                 </span>
             </div>
@@ -31,7 +31,7 @@
             <ul id="hamburger">
                 <a href="#second_section" onclick="ocultar()"><li>Minhas Habilidades</li></a>
                 <a href="#third_section" onclick="ocultar()"><li>Meus Projectos</li></a>
-                <a href="#four_section" onclick="ocultar()"><li>Contacto</li></a>
+                <a href="#four_section" onclick="ocultar()"><li style="border-bottom: 0px;">Contacto</li></a>
             </ul>
         </menu>
     </header>
@@ -429,7 +429,10 @@
         }
 
         function ocultar() {
-            itens.style.display = 'none'
+            const display = window.getComputedStyle(burguer).display;
+            if (display === 'inline-block') {
+                itens.style.display = 'none'
+            }
         }
     </script>
 </body>

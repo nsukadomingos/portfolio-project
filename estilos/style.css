@@ -69,9 +69,9 @@ button .hire_button {
 
 
 header {
-    background-color: #e6e7ee;
+    background-color: #dadbe2;
     width: 100%;
-    height: 25%;
+    height: 35%;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -80,10 +80,9 @@ header {
 
 menu {
     display: none;
-    width: 90%;
+    width: 100%;
+    padding-bottom: 10px;
     margin: auto;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 div#clicable {
@@ -101,21 +100,21 @@ div#clicable > div > h1 a {
     color: black;
 }
 
-span#burguer-icon {
+span#burguer {
     cursor: pointer;
     padding: 0px;
     
 }
 
 ul#hamburger {
-    width: 100%;
-    padding-top: 10px;
+    width: 300px;
+    margin: auto;
+    padding: 2px;
     text-align: center;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 7px;
     background-color: #d8d8e7;
     list-style-type: none;
-    box-shadow: 1px 1px 10px #0000006b;
+    box-shadow: 1px 1px 10px #00000042;
 }
 
 menu > ul#hamburger > a {
@@ -125,9 +124,6 @@ menu > ul#hamburger > a {
     background-color: #d8d8e7;
 }
 
-menu > ul#hamburger a> li:hover{
-    background-color: rgb(217, 221, 240);
-}
 
 menu > ul#hamburger > a > li{
     list-style-type: none;
@@ -136,6 +132,10 @@ menu > ul#hamburger > a > li{
     text-shadow: -2px 2px 13px rgb(0 0 0 / 50%);
     padding: 10px;
     cursor: pointer;
+}
+
+menu > ul#hamburger a> li:hover{
+    background-color: rgb(217, 221, 240);
 }
 
 menu > ul#hamburger > a> li:hover{
@@ -160,7 +160,7 @@ section {
 }
 
 #first_section {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 130px;
     height: 90dvh;
     background-color:#e9eaf3;
@@ -172,7 +172,7 @@ section {
 }
 
 .img_link {
-    width: 40px;
+    width: 45px;
     margin-right: 20px;
     border-radius: 50%;
 } 
@@ -202,7 +202,7 @@ span {
     height: 613px;
     padding: 0px;
     background-color: #e2e3e9;
-    background-image: url(images/code_imgae.jpg);
+    background-image: url(../images/code_imgae.jpg);
     background-position: left top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ span {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    padding-top: 55px;
+    padding-top: 70px;
     padding-bottom: 10px;
     background-color: #000000ad;
 }
@@ -295,7 +295,7 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: #dcdee9;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 20px;
 }
 
