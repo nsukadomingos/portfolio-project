@@ -36,12 +36,15 @@
     }
 
     #first_section {
-        padding-top: 90px;
+        padding-top: 40px;
+        
     }
 
-    #second_article, #third_section, #four_section {
-        padding-top: 80px;
+    section#first_section > article > div > p {
+        font-size: large;
+        max-width: 500px;
     }
+
 
     span#burguer{
         display: none;

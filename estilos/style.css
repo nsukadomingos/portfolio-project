@@ -15,6 +15,7 @@
 html {
     scroll-behavior: smooth; /* Smooth scrolling - Adds a smoother scrolling between tabs*/
     height: 100vw;
+    scroll-padding-top: 70px;
 }
 
 body {
