@@ -15,7 +15,7 @@
 html {
     scroll-behavior: smooth; /* Smooth scrolling - Adds a smoother scrolling between tabs*/
     height: 100vw;
-    scroll-padding-top: 70px;
+    scroll-padding-top: 48px;
 }
 
 body {
@@ -296,7 +296,7 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: #dcdee9;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
